@@ -1,3 +1,9 @@
+@media screen and (min-width:480px){
+
+
+}
+    
+
 *{
     padding: 0%;
     margin: 0%;
@@ -93,39 +99,38 @@ body,html {
     }
     .photo{
         background-color: orangered;
-        width: fit-content;
         padding: 15px;
         color: white;
         font-size: 20px;
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        margin-top: -50px;    
+        margin-top: -5.5vh;    
         transition-duration: 0.5s;
+        position: absolute;
         
     }
     .date{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
         color: white;
         border-radius: 50%;
         background-color: orangered;
-        margin: -550px 0 0 380px;
-        padding: 10px;
+        margin: -60vh 0 0 41vh;
         position: absolute;
         font-weight: lighter;
-        
+
     }
+
     
     .ensemble{
         background-color: white;
         transition-duration: 0.5s;
         
+    
     }
     
+
 }
 
 
